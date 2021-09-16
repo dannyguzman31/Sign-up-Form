@@ -2,7 +2,7 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
   }
-  
+
   * {
     padding: 0;
     margin: 0;
@@ -12,9 +12,9 @@ html {
     border: none;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    text-transform: capitalize;
+
   }
-  
+
   * .container {
     min-height: 100vh;
     background-color: #FF7A7A;
@@ -31,13 +31,13 @@ html {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
-  
+
   * .container .texts {
     width: 50%;
     margin-left: 15%;
     margin-right: 4rem;
   }
-  
+
   * .container .texts h1 {
     font-size: 5rem;
     line-height: 6rem;
@@ -45,7 +45,7 @@ html {
     color: #fff;
     padding: 4rem 0;
   }
-  
+
   * .container .texts p {
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -53,12 +53,12 @@ html {
     color: #fff;
     margin-right: 2.5rem;
   }
-  
+
   * .container .form {
     width: 50%;
     margin-right: 15%;
   }
-  
+
   * .container .form .banner {
     width: 100%;
     background-color: #5D54A3;
@@ -71,11 +71,11 @@ html {
             box-shadow: 0 0.7rem 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 2.5rem;
   }
-  
+
   * .container .form .banner span {
     font-weight: 600;
   }
-  
+
   * .container .form form {
     width: 100%;
     background-color: #fff;
@@ -95,12 +95,12 @@ html {
     padding: 4rem 0;
     position: relative;
   }
-  
+
   * .container .form form img {
     position: absolute;
     left: 80%;
   }
-  
+
   * .container .form form input {
     width: 85%;
     border: 0.1rem solid rgba(93, 84, 163, 0.25);
@@ -109,18 +109,18 @@ html {
     font-weight: 500;
     border-radius: .5rem;
   }
-  
+
   * .container .form form input.error {
     background-image: url(icon-error.svg);
     background-repeat: no-repeat;
     background-position: 97% 50%;
     border: 0.2rem solid #ff7a7a;
   }
-  
+
   * .container .form form input:focus {
     outline: 1px solid #68676D;
   }
-  
+
   * .container .form form .btn {
     width: 85%;
     padding: 1rem 3.6rem 1rem 1rem;
@@ -134,22 +134,22 @@ html {
             box-shadow: 0 0.7rem rgba(52, 184, 126, 0.1);
     border-radius: 1rem;
   }
-  
+
   * .container .form form .btn:hover {
     background-color: rgba(55, 204, 138, 0.7);
   }
-  
+
   * .container .form form p.terms {
     font-size: 1.3rem;
     color: rgba(104, 103, 109, 0.5);
     text-align: center;
   }
-  
+
   * .container .form form p.terms span {
     color: #FF7A7A;
     font-weight: 700;
   }
-  
+
   * .container .form form p.f-error, * .container .form form p.l-error, * .container .form form p.e-error, * .container .form form p.p-error {
     font-size: 1.2rem;
     color: #FF7A7A;
@@ -158,7 +158,7 @@ html {
     margin: .3rem 0;
     display: none;
   }
-  
+
   @media (max-width: 768px) {
     html {
       font-size: 55%;
@@ -182,7 +182,7 @@ html {
       margin: 0 auto 4rem;
     }
   }
-  
+
   @media (max-width: 430px) {
     html {
       font-size: 45%;
