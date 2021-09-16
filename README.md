@@ -75,4 +75,4 @@ const validEmail = function validateEmail(email) {
 ## Author
 
 - Website - [Daniel Guzman](https://guzdeveloper.com)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/dguzman31/)
+- Linkedin - [@dguzman31](https://www.linkedin.com/in/dguzman31/)
