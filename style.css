@@ -1,0 +1,190 @@
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  * .container {
+    min-height: 100vh;
+    background-color: #FF7A7A;
+    background-image: url(images/bg-intro-desktop.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  
+  * .container .texts {
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 4rem;
+  }
+  
+  * .container .texts h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 700;
+    color: #fff;
+    padding: 4rem 0;
+  }
+  
+  * .container .texts p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 2.5rem;
+  }
+  
+  * .container .form {
+    width: 50%;
+    margin-right: 15%;
+  }
+  
+  * .container .form .banner {
+    width: 100%;
+    background-color: #5D54A3;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0 0.7rem 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.7rem 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.5rem;
+  }
+  
+  * .container .form .banner span {
+    font-weight: 600;
+  }
+  
+  * .container .form form {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0.7rem 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0.7rem 0 rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 4rem 0;
+    position: relative;
+  }
+  
+  * .container .form form img {
+    position: absolute;
+    left: 80%;
+  }
+  
+  * .container .form form input {
+    width: 85%;
+    border: 0.1rem solid rgba(93, 84, 163, 0.25);
+    padding: 1rem 3.6rem 1rem 1rem;
+    margin: .5rem 0;
+    font-weight: 500;
+    border-radius: .5rem;
+  }
+  
+  * .container .form form input.error {
+    background-image: url(icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    border: 0.2rem solid #ff7a7a;
+  }
+  
+  * .container .form form input:focus {
+    outline: 1px solid #68676D;
+  }
+  
+  * .container .form form .btn {
+    width: 85%;
+    padding: 1rem 3.6rem 1rem 1rem;
+    margin: 1rem 0;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #37CC8A;
+    color: #fff;
+    font-weight: 700;
+    -webkit-box-shadow: 0 0.7rem rgba(52, 184, 126, 0.1);
+            box-shadow: 0 0.7rem rgba(52, 184, 126, 0.1);
+    border-radius: 1rem;
+  }
+  
+  * .container .form form .btn:hover {
+    background-color: rgba(55, 204, 138, 0.7);
+  }
+  
+  * .container .form form p.terms {
+    font-size: 1.3rem;
+    color: rgba(104, 103, 109, 0.5);
+    text-align: center;
+  }
+  
+  * .container .form form p.terms span {
+    color: #FF7A7A;
+    font-weight: 700;
+  }
+  
+  * .container .form form p.f-error, * .container .form form p.l-error, * .container .form form p.e-error, * .container .form form p.p-error {
+    font-size: 1.2rem;
+    color: #FF7A7A;
+    font-style: italic;
+    font-weight: 600;
+    margin: .3rem 0;
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 55%;
+    }
+    .container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center;
+    }
+    .container .texts {
+      width: 80%;
+      margin: 0 5%;
+    }
+    .container .texts p {
+      margin-bottom: 2rem;
+    }
+    .container .form {
+      width: 70%;
+      margin: 0 auto 4rem;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    html {
+      font-size: 45%;
+    }
+  }
